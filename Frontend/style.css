@@ -1,0 +1,174 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:linear-gradient(to bottom,#f4f7fb,#ffffff,#f7e5b6,#f7d580,#c0a153);
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 50px;
+
+    background:#1c2b33;
+}
+
+.logo{
+    color:#ffffff;
+    font-size:30px;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#4DA8DA;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 40px;
+    background:linear-gradient(to bottom,#0f4c81,#1e88e5,#4DA8DA,#f4f7fb);
+    color:white;
+    min-height:40vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.controls{
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+#search-input{
+    width:300px;
+    padding:12px;
+    border-radius:10px;
+    border:none;
+    font-size:16px;
+}
+
+#beach-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+    padding:30px;
+}
+
+#filter-select{
+    padding:12px;
+    border-radius:10px;
+    border:none;
+    font-size:16px;
+    margin-left:10px;
+}
+
+.beach-card{
+    background:white;
+
+    padding:20px;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+
+    transition:0.35s ease;
+
+    overflow:hidden;
+
+    position:relative;
+}
+
+.beach-card:hover{
+    transform:translateY(-10px) scale(1.05);
+    box-shadow:0 15px 30px rgba(0,0,0,0.18);
+}
+
+.safe{
+    border-left:8px solid green;
+}
+
+.moderate{
+    border-left:8px solid orange;
+}
+
+.danger{
+    border-left:8px solid red;
+}
+
+.card-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-bottom:15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.city{
+    color:#555;
+    margin-bottom:15px;
+}
+
+.weather-info{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.badge{
+    padding:8px 14px;
+    border-radius:30px;
+
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.safe-badge{
+    background:green;
+}
+
+.moderate-badge{
+    background:orange;
+}
+
+.dangerous-badge{
+    background:red;
+}
+
+.beach-image{
+    width:100%;
+    height:200px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    margin-bottom:15px;
+
+    transition:0.4s;
+}

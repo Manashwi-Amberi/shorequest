@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoreQuest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+
+    <h2 class="logo">ShoreQuest</h2>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Beaches</a>
+        <a href="#">About</a>
+    </div>
+
+</nav>
+    <section class="hero">
+
+    <h1>ShoreQuest</h1>
+
+    <p>
+        Discover beach safety, weather conditions,
+        and travel insights across India.
+    </p>
+
+    </section>
+    <div class="controls">
+        <input type="text" id="search-input" placeholder="Search beach..."/>
+        <select id="filter-select">
+            <option value="All">All</option>
+            <option value="Safe">Safe</option>
+            <option value="Moderate">Moderate</option>
+            <option value="Dangerous">Dangerous</option>
+        </select>
+    </div>
+    <div id = "beach-container"></div>
+    <img src="images/sample.avif" width="300">
+    <script src="script.js"></script>
+    
+</body>
+</html>
