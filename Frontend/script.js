@@ -2,6 +2,7 @@ const beachContainer = document.getElementById("beach-container")
 const searchInput = document.getElementById("search-input")
 const filterSelect = document.getElementById("filter-select")
 
+
 let allBeaches = []
 
 
@@ -14,7 +15,6 @@ async function getBeaches(){
             console.error("Failed to fetch beaches:", response.status)
             return
         }
-        
         const data = await response.json()
         allBeaches = data
         displayBeaches(allBeaches)

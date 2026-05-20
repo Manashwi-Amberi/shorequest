@@ -9,25 +9,24 @@
 <body>
     <nav class="navbar">
 
-    <h2 class="logo">ShoreQuest</h2>
+    <img src="images/logo.png" class="logo">
 
     <div class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">Beaches</a>
-        <a href="#">About</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
     </div>
 
 </nav>
-    <section class="hero">
+    <section class="hero" id="home">
 
-    <h1>ShoreQuest</h1>
+    <img src="images/logo.png" class="hero-logo">
 
     <p>
         Discover beach safety, weather conditions,
         and travel insights across India.
     </p>
 
-    </section>
+</section>
     <div class="controls">
         <input type="text" id="search-input" placeholder="Search beach..."/>
         <select id="filter-select">
@@ -37,8 +36,51 @@
             <option value="Dangerous">Dangerous</option>
         </select>
     </div>
+    
     <div id = "beach-container"></div>
-    <img src="images/sample.avif" width="300">
+
+    <section id="about" class="about-section">
+
+    <h2>About ShoreQuest</h2>
+
+    <p>
+        ShoreQuest is a smart coastal travel and beach safety platform
+        designed to help travelers explore beaches across India with
+        greater confidence and awareness.
+    </p>
+
+    <p>
+        The platform provides real-time weather conditions, wind speed
+        analysis, and beach safety insights using live API data.
+        Users can search and filter beaches based on safety conditions
+        to plan safer and more enjoyable travel experiences.
+    </p>
+
+    <p>
+        Built with modern web technologies, ShoreQuest aims to combine
+        tourism, safety, and technology into one seamless experience
+        for beach explorers, travelers, and coastal enthusiasts.
+    </p>
+
+    <div class="contact-links">
+
+        <a href="https://github.com/Manashwi-Amberi" target="_blank">
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com" target="_blank">
+            LinkedIn
+        </a>
+
+        <a href="mailto:manashwiamberi27@gmail.com">
+            Email
+        </a>
+
+    </div>
+
+</section>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <script src="script.js"></script>
     
 </body>
