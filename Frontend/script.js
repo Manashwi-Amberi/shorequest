@@ -5,6 +5,8 @@ const filterSelect = document.getElementById("filter-select")
 
 let allBeaches = []
 
+let beachDetails = []
+
 
 async function getBeaches(){
 
@@ -23,6 +25,23 @@ async function getBeaches(){
     }
 }
 
+async function getBeachDetails(){
+
+    try{
+
+        const response = await fetch("beachdetails.json")
+
+        const data = await response.json()
+
+        beachDetails = data
+
+    }
+
+    catch(error){
+
+        console.log("Error loading details", error)
+    }
+}
 
 function getWeatherIcon(weather){
 
@@ -81,13 +100,19 @@ function displayBeaches(beaches){
 
         <div class="card-top">
 
-        <h2>${beach.name}</h2>
+    <h2>${beach.name}</h2>
+
+    <div class="badge-container">
 
         <span class="badge ${beach.safety_status.toLowerCase()}-badge">
+
             ${beach.safety_status}
+
         </span>
 
-        </div>
+    </div>
+
+    </div>
 
     <p class="city">${beach.city}</p>
 
@@ -103,12 +128,64 @@ function displayBeaches(beaches){
         <p>🌬 ${beach.wind_speed} m/s</p>
 
     </div>
-
 `
+
+        card.addEventListener("click", () => {
+            openModal(beach)
+        })
 
         beachContainer.appendChild(card)
     })
 }
+
+function openModal(beach){
+
+    const modal = document.getElementById("beach-modal")
+
+    const details = beachDetails.find(item =>
+        item.name === beach.name &&
+        item.city === beach.city
+    )
+
+    if(!details) return
+
+    document.getElementById("modal-image").src = beach.img
+
+    document.getElementById("modal-title").innerText =
+        details.name
+
+    document.getElementById("modal-description").innerText =
+        details.description
+
+    document.getElementById("modal-best-time").innerText =
+        details.best_time
+
+    document.getElementById("modal-stay").innerText =
+        `${details.stay.name} | ${details.stay.phone}`
+
+    const activitiesList =
+        document.getElementById("modal-activities")
+
+    activitiesList.innerHTML = ""
+
+    details.activities.forEach(activity => {
+
+        const li = document.createElement("li")
+
+        li.innerText = activity
+
+        activitiesList.appendChild(li)
+
+    })
+
+    modal.style.display = "block"
+}
+document.getElementById("close-modal")
+.addEventListener("click", () => {
+
+    document.getElementById("beach-modal")
+    .style.display = "none"
+})
 
 function applyFilters(){
 
@@ -135,3 +212,4 @@ searchInput.addEventListener("input", applyFilters)
 
 
 getBeaches()
+getBeachDetails()

@@ -1,0 +1,434 @@
+[
+  {
+    "name": "RK Beach",
+    "city": "Visakhapatnam",
+    "description": "RK Beach is one of the most famous beaches in Visakhapatnam known for scenic coastline and tourism.",
+    "activities": [
+      "Beach Walk",
+      "Surfing",
+      "Street Food",
+      "Photography"
+    ],
+    "best_time": "October to February",
+    "stay": {
+      "name": "Sea View Resort",
+      "phone": "+91 9876543210"
+    }
+  },
+  {
+    "name": "Rushikonda Beach",
+    "city": "Visakhapatnam",
+    "description": "Rushikonda Beach is a pristine, blue-flag certified beach famous for its golden sands and thrilling water sports.",
+    "activities": [
+      "Speed Boating",
+      "Jet Skiing",
+      "Swimming",
+      "Windsurfing"
+    ],
+    "best_time": "October to March",
+    "stay": {
+      "name": "The Gateway Hotel Beach Road",
+      "phone": "+91 89166 17777"
+    }
+  },
+  {
+    "name": "Yarada Beach",
+    "city": "Visakhapatnam",
+    "description": "Surrounded by lush green hills on three sides, Yarada Beach offers a tranquil and exceptionally scenic getaway away from the crowds.",
+    "activities": [
+      "Sunbathing",
+      "Photography",
+      "Hill Trekking",
+      "Beach Picnic"
+    ],
+    "best_time": "November to February",
+    "stay": {
+      "name": "Sai Priya Beach Resort",
+      "phone": "+91 89127 90333"
+    }
+  },
+  {
+    "name": "Bheemunipatnam Beach",
+    "city": "Bheemunipatnam",
+    "description": "Located at the confluence of the Gosthani River and the sea, this beach features historic remnants of Dutch fort settlements and a peaceful coast.",
+    "activities": [
+      "Exploring Dutch Ruins",
+      "Boating",
+      "Long Walks",
+      "Sunset Watching"
+    ],
+    "best_time": "October to March",
+    "stay": {
+      "name": "Bheemli Resort By Novotel",
+      "phone": "+91 89171 17111"
+    }
+  },
+  {
+    "name": "Marina Beach",
+    "city": "Chennai",
+    "description": "Marina Beach is the longest natural urban beach in the country, bustling with rich local culture, historical statues, and endless food stalls.",
+    "activities": [
+      "Kite Flying",
+      "Horse Riding",
+      "Tasting Local Murukku",
+      "Visiting the Lighthouse"
+    ],
+    "best_time": "November to February",
+    "stay": {
+      "name": "The Leela Palace Chennai",
+      "phone": "+91 44336 61234"
+    }
+  },
+  {
+    "name": "Elliot's Beach",
+    "city": "Chennai",
+    "description": "Also known as Besant Nagar Beach, Elliot's Beach is a cleaner, calmer alternative to Marina, popular among youth and families alike.",
+    "activities": [
+      "Cafe Hopping",
+      "Evening Strolls",
+      "Visiting Schmidt Memorial",
+      "Street Photography"
+    ],
+    "best_time": "November to February",
+    "stay": {
+      "name": "Taj Wellington Mews",
+      "phone": "+91 44661 46614"
+    }
+  },
+  {
+    "name": "Mahabalipuram Beach",
+    "city": "Mahabalipuram",
+    "description": "A beautiful shore overlooking historic UNESCO heritage rock-cut temples and dynamic surf waves.",
+    "activities": [
+      "Surfing",
+      "Temple Touring",
+      "Beach Camping",
+      "Shopping for Stone Crafts"
+    ],
+    "best_time": "October to March",
+    "stay": {
+      "name": "Radisson Blu Resort Temple Bay",
+      "phone": "+91 44274 43043"
+    }
+  },
+  {
+    "name": "Kovalam Beach",
+    "city": "Chennai",
+    "description": "A prominent surfing destination on the East Coast Road, known for its active surf schools and serene, clean sands.",
+    "activities": [
+      "Surfing lessons",
+      "Scuba Diving",
+      "Beach Volleyball",
+      "Catamaran Rides"
+    ],
+    "best_time": "November to February",
+    "stay": {
+      "name": "Taj Fisherman's Cove Resort & Spa",
+      "phone": "+91 44674 13333"
+    }
+  },
+  {
+    "name": "Kovalam Beach",
+    "city": "Kovalam",
+    "description": "An internationally renowned beach destination in Kerala featuring an iconic red-and-white striped lighthouse and three adjacent crescent beaches.",
+    "activities": [
+      "Ayurvedic Massages",
+      "Catamaran Cruise",
+      "Parasailing",
+      "Seafood Dining"
+    ],
+    "best_time": "September to March",
+    "stay": {
+      "name": "The Leela Kovalam",
+      "phone": "+91 47130 51234"
+    }
+  },
+  {
+    "name": "Varkala Beach",
+    "city": "Varkala",
+    "description": "Famous for its unique, towering red laterite cliffs bordering the Arabian Sea and natural mineral springs believed to have holy healing powers.",
+    "activities": [
+      "Cliff Parasailing",
+      "Yoga and Meditation",
+      "Cafe Lounge Hopping",
+      "Sunbathing"
+    ],
+    "best_time": "October to March",
+    "stay": {
+      "name": "Gateway Varkala - IHCL SeleQtions",
+      "phone": "+91 47027 30040"
+    }
+  },
+  {
+    "name": "Cherai Beach",
+    "city": "Kochi",
+    "description": "A picturesque shallow beach where the backwaters meet the sea, frequently offering glimpses of playful dolphins near the coast.",
+    "activities": [
+      "Dolphin Spotting",
+      "Swimming",
+      "Backwater Boating",
+      "Cycling along the coast"
+    ],
+    "best_time": "October to April",
+    "stay": {
+      "name": "Cherai Beach Resorts",
+      "phone": "+91 48424 81818"
+    }
+  },
+  {
+    "name": "Bekal Beach",
+    "city": "Kasaragod",
+    "description": "A majestic and well-maintained beach overlooked by the historic, keyhole-shaped Bekal Fort.",
+    "activities": [
+      "Fort Exploration",
+      "Beach Park Walks",
+      "Traditional Theyyam watching",
+      "Sunset Photography"
+    ],
+    "best_time": "October to March",
+    "stay": {
+      "name": "Taj Bekal Resort & Spa",
+      "phone": "+91 46723 02000"
+    }
+  },
+  {
+    "name": "Baga Beach",
+    "city": "Goa",
+    "description": "One of North Goa's most energetic beaches, famous for its nonstop nightlife, bustling night markets, and thrilling watersports.",
+    "activities": [
+      "Parasailing",
+      "Banana Boat Rides",
+      "Clubbing at Tito's Lane",
+      "Dolphin Cruises"
+    ],
+    "best_time": "November to February",
+    "stay": {
+      "name": "Acron Waterfront Resort",
+      "phone": "+91 83267 44444"
+    }
+  },
+  {
+    "name": "Calangute Beach",
+    "city": "Goa",
+    "description": "Known as the 'Queen of Beaches', Calangute is a massive, flagship Goan beach packed with shacks, souvenir shops, and endless activity.",
+    "activities": [
+      "Jet Skiing",
+      "Shack Lounge Dining",
+      "Souvenir Shopping",
+      "Speedboat Rides"
+    ],
+    "best_time": "November to February",
+    "stay": {
+      "name": "Hard Rock Hotel Goa",
+      "phone": "+91 83267 13100"
+    }
+  },
+  {
+    "name": "Anjuna Beach",
+    "city": "Goa",
+    "description": "A bohemian paradise known for its striking black rock formations, alternative hippie vibe, and the famous weekly Wednesday flea market.",
+    "activities": [
+      "Flea Market Shopping",
+      "Trance Party Attending",
+      "Rocky Coast Walking",
+      "Sunset Cafe Lounging"
+    ],
+    "best_time": "November to February",
+    "stay": {
+      "name": "W Goa",
+      "phone": "+91 83267 18888"
+    }
+  },
+  {
+    "name": "Palolem Beach",
+    "city": "Goa",
+    "description": "A beautiful crescent-shaped beach in South Goa flanked by a dense forest of coconut palms and calm, swimmable waters.",
+    "activities": [
+      "Kayaking to Monkey Island",
+      "Silent Noise Discos",
+      "Dolphin Trips",
+      "Yoga Classes"
+    ],
+    "best_time": "November to March",
+    "stay": {
+      "name": "The Lalit Golf & Spa Resort",
+      "phone": "+91 83226 67777"
+    }
+  },
+  {
+    "name": "Colva Beach",
+    "city": "Goa",
+    "description": "A long stretch of fine white sand in South Goa, blending local fishing culture with modern beach amenities and water sports.",
+    "activities": [
+      "Motorized Water Sports",
+      "Seafood Shack Dining",
+      "Evening Beach Strolls",
+      "Parasailing"
+    ],
+    "best_time": "November to March",
+    "stay": {
+      "name": "Beleza By The Beach",
+      "phone": "+91 83227 81001"
+    }
+  },
+  {
+    "name": "Mandrem Beach",
+    "city": "Goa",
+    "description": "A quiet, upscale, and incredibly peaceful beach in North Goa, ideal for travelers seeking wellness, solitude, and pristine sands.",
+    "activities": [
+      "Dolphin Watching",
+      "Wading in Tidal Pools",
+      "Wellness Retreats",
+      "Sunset Meditation"
+    ],
+    "best_time": "November to February",
+    "stay": {
+      "name": "Mandrem Beach Resort",
+      "phone": "+91 83222 47111"
+    }
+  },
+  {
+    "name": "Juhu Beach",
+    "city": "Mumbai",
+    "description": "Mumbai's iconic upscale beach, famous for its bustling atmosphere, legendary street food scene, and celebrity sightings nearby.",
+    "activities": [
+      "Eating Pav Bhaji & Bhel Puri",
+      "Celebrity House Touring",
+      "Jogging",
+      "Street Performance Watching"
+    ],
+    "best_time": "October to March",
+    "stay": {
+      "name": "JW Marriott Mumbai Juhu",
+      "phone": "+91 22669 33000"
+    }
+  },
+  {
+    "name": "Girgaon Chowpatty",
+    "city": "Mumbai",
+    "description": "Located at the northern end of Marine Drive, this vibrant beach is best known for its grand Ganesh Visarjan celebrations and evening carnival air.",
+    "activities": [
+      "Enjoying Kulfi and Chaat",
+      "Strolling Marine Drive",
+      "Sunset Photography",
+      "Attending Cultural Festivals"
+    ],
+    "best_time": "October to March",
+    "stay": {
+      "name": "The Oberoi Mumbai",
+      "phone": "+91 22663 25757"
+    }
+  },
+  {
+    "name": "Mandvi Beach",
+    "city": "Kutch",
+    "description": "A clean, historical beach featuring white sands, traditional wooden ship-building yards nearby, and the stunning Vijay Vilas Palace complex.",
+    "activities": [
+      "Camel Riding",
+      "Visiting Vijay Vilas Palace",
+      "Bird Watching",
+      "Wind Mills Photography"
+    ],
+    "best_time": "October to March",
+    "stay": {
+      "name": "Serena Beach Resort",
+      "phone": "+91 28342 28800"
+    }
+  },
+  {
+    "name": "Puri Beach",
+    "city": "Puri",
+    "description": "A sacred and popular beach destination on the Bay of Bengal, famous for its annual sand art festivals and proximity to the Jagannath Temple.",
+    "activities": [
+      "Viewing Sand Art",
+      "Holy Dips",
+      "Shopping for Handloom",
+      "Beachside Seafood Bazaars"
+    ],
+    "best_time": "October to February",
+    "stay": {
+      "name": "Mayfair Waves Puri",
+      "phone": "+91 67522 66011"
+    }
+  },
+  {
+    "name": "Chandrabhaga Beach",
+    "city": "Konark",
+    "description": "A clean, peaceful beach holding blue-flag eco-certification, located close to the world-famous Konark Sun Temple.",
+    "activities": [
+      "Viewing Sunrise",
+      "Beach Trekking",
+      "Visiting the Sun Temple",
+      "Eco-Camp Stays"
+    ],
+    "best_time": "October to March",
+    "stay": {
+      "name": "Lotus Eco Resort Konark",
+      "phone": "+91 90780 00411"
+    }
+  },
+  {
+    "name": "Gopalpur Beach",
+    "city": "Gopalpur",
+    "description": "An old historic port town turned quiet resort beach, recognizable by its vintage lighthouse and peaceful, uncrowded coastline.",
+    "activities": [
+      "Lighthouse Climbing",
+      "Beach Volleyball",
+      "Tasting Local Crab Dishes",
+      "Shell Collecting"
+    ],
+    "best_time": "October to March",
+    "stay": {
+      "name": "Mayfair Palm Beach Resort",
+      "phone": "+91 68023 43718"
+    }
+  },
+  {
+    "name": "Radhanagar Beach",
+    "city": "Havelock Island",
+    "description": "Consistently rated among Asia's finest beaches, Radhanagar boasts breathtaking turquoise waters, perfect white sands, and a dense rainforest backdrop.",
+    "activities": [
+      "Swimming",
+      "Sunset Photography",
+      "Beachcombing",
+      "Forest Margin Walking"
+    ],
+    "best_time": "November to April",
+    "stay": {
+      "name": "Taj Exotica Resort & Spa Andamans",
+      "phone": "+91 31922 83333"
+    }
+  },
+  {
+    "name": "Elephant Beach",
+    "city": "Havelock Island",
+    "description": "A vibrant coral reef destination reachable by boat or forest trek, perfect for marine life lovers and adventure sports.",
+    "activities": [
+      "Snorkeling",
+      "Sea Walking",
+      "Glass Bottom Boat Rides",
+      "Forest Trekking"
+    ],
+    "best_time": "November to April",
+    "stay": {
+      "name": "Barefoot at Havelock",
+      "phone": "+91 31922 82235"
+    }
+  },
+  {
+    "name": "Kanyakumari Beach",
+    "city": "Kanyakumari",
+    "description": "The unique southern tip of mainland India where the Arabian Sea, Bay of Bengal, and Indian Ocean meet, legendary for sunrise and sunset views.",
+    "activities": [
+      "Ferrying to Vivekananda Rock",
+      "Watching Sunrise and Sunset",
+      "Shell Shopping",
+      "Visiting Triveni Sangam"
+    ],
+    "best_time": "October to March",
+    "stay": {
+      "name": "Hotel Sparsa Kanyakumari",
+      "phone": "+91 46522 47041"
+    }
+  }
+]

@@ -1,3 +1,4 @@
+from app.chat import router as chat_router
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -28,3 +29,4 @@ def home():
 
 app.include_router(beaches.router)
 app.include_router(weather.router, prefix="/weather")
+app.include_router(chat_router)
